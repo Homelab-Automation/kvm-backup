@@ -1,8 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
-VM=""
-DISK=""
+VM="${VM:-}"
+DISK="${DISK:-}"
 RETAIN_COUNT=14
 
 # Validate required config
